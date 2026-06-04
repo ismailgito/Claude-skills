@@ -1,4 +1,6 @@
 To perfectly structure these layers, use the 6-Field Build Framework, which consists of the following components:
+
+
 1. Name As discussed previously, this must be a short, kebab-case label (e.g., "weekly-status-report" or "youtube-title-generator") that describes exactly what the skill does
 .
 2. Trigger (Description) This field is critical because it tells Claude exactly when to activate the skill
@@ -16,8 +18,4 @@ To perfectly structure these layers, use the 6-Field Build Framework, which cons
 . You should also define the expected output for each individual step
 .
 6. Rules and Constraints (Edge Cases) Finally, you must predict what could go wrong and set firm boundaries
-. This involves creating strict rules about what Claude should not do. For example, you can dictate exact style rules, tell it which colors or logos it must use, and explicitly state "never use this" for elements you want to avoid
-.
-The Ultimate Goal: Build Systems, Not Just Skills Once you master building individual skills using this framework, the sources strongly advise that you stop thinking about them as isolated tools
-. The most professional setups combine multiple skills, connectors, and external databases (like an Obsidian wiki) into a complete automated system or plugin
-. By learning to design systems that actually work together, you dramatically increase your productivity and ensure that AI amplifies your career rather than replacing it
+. This involves creating strict rules about what Claude should not do. For example, you can dictate exact style rules, tell it which colors or logos it must use, and explicitly state "never use this" for elements you want to avoid.
