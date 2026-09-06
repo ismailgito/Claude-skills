@@ -3,77 +3,6 @@
 <!-- ================================================================= -->
 <!-- 🚀 ANIMATED RETRO CYBERPUNK & DYNAMIC MOTION HERO HEADER -->
 <!-- ================================================================= -->
-<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 950 260" width="100%" height="260" style="background: #090d16; border-radius: 18px; box-shadow: 0 12px 40px rgba(0, 0, 0, 0.75); overflow: hidden; border: 1px solid rgba(121, 40, 202, 0.35);">
-  <defs>
-    <!-- Shifting Neon Gradients -->
-    <linearGradient id="neonPulse" x1="0%" y1="0%" x2="100%" y2="100%">
-      <stop offset="0%" stop-color="#ff007f">
-        <animate attributeName="stop-color" values="#ff007f;#7928ca;#00dfd8;#ffbe0b;#ff007f" dur="9s" repeatCount="indefinite" />
-      </stop>
-      <stop offset="40%" stop-color="#7928ca">
-        <animate attributeName="stop-color" values="#7928ca;#00dfd8;#ffbe0b;#ff007f;#7928ca" dur="9s" repeatCount="indefinite" />
-      </stop>
-      <stop offset="75%" stop-color="#00dfd8">
-        <animate attributeName="stop-color" values="#00dfd8;#ffbe0b;#ff007f;#7928ca;#00dfd8" dur="9s" repeatCount="indefinite" />
-      </stop>
-      <stop offset="100%" stop-color="#ffbe0b">
-        <animate attributeName="stop-color" values="#ffbe0b;#ff007f;#7928ca;#00dfd8;#ffbe0b" dur="9s" repeatCount="indefinite" />
-      </stop>
-    </linearGradient>
-  </defs>
-  <!-- Background Base & Sci-Fi Grid -->
-  <rect width="950" height="260" fill="#090d16" />
-  <rect width="950" height="260" fill="url(#cyberGrid)" />
-  <rect y="130" width="950" height="130" fill="url(#horizonGlow)" />
-
-  <!-- Animated Cyber Laser Lines -->
-  <line x1="0" y1="195" x2="950" y2="195" stroke="#7928ca" stroke-width="1.6" stroke-opacity="0.5" class="laser-line" />
-  <line x1="0" y1="220" x2="950" y2="220" stroke="#00dfd8" stroke-width="1.2" stroke-opacity="0.4" class="laser-line-fast" />
-  <line x1="0" y1="242" x2="950" y2="242" stroke="#ff007f" stroke-width="0.8" stroke-opacity="0.3" class="laser-line" />
-
-  <!-- Animated Soundwave / Equalizer Left -->
-  <g transform="translate(35, 170) scale(1, -1)">
-    <rect x="0" y="0" width="4" height="28" fill="#ff007f" rx="2" class="eq-bar" style="animation-delay: 0.1s;"/>
-    <rect x="7" y="0" width="4" height="42" fill="#7928ca" rx="2" class="eq-bar" style="animation-delay: 0.35s;"/>
-    <rect x="14" y="0" width="4" height="22" fill="#00dfd8" rx="2" class="eq-bar" style="animation-delay: 0.6s;"/>
-    <rect x="21" y="0" width="4" height="36" fill="#ffbe0b" rx="2" class="eq-bar" style="animation-delay: 0.25s;"/>
-    <rect x="28" y="0" width="4" height="18" fill="#ff007f" rx="2" class="eq-bar" style="animation-delay: 0.5s;"/>
-  </g>
-
-  <!-- Animated Soundwave / Equalizer Right -->
-  <g transform="translate(885, 170) scale(1, -1)">
-    <rect x="0" y="0" width="4" height="20" fill="#ff007f" rx="2" class="eq-bar" style="animation-delay: 0.45s;"/>
-    <rect x="7" y="0" width="4" height="38" fill="#7928ca" rx="2" class="eq-bar" style="animation-delay: 0.2s;"/>
-    <rect x="14" y="0" width="4" height="24" fill="#00dfd8" rx="2" class="eq-bar" style="animation-delay: 0.55s;"/>
-    <rect x="21" y="0" width="4" height="44" fill="#ffbe0b" rx="2" class="eq-bar" style="animation-delay: 0.1s;"/>
-    <rect x="28" y="0" width="4" height="16" fill="#ff007f" rx="2" class="eq-bar" style="animation-delay: 0.4s;"/>
-  </g>
-
-  <!-- Twinkling Micro Stars -->
-  <g class="star-glow" style="transform-origin: 140px 48px;"><rect x="138" y="46" width="6" height="6" rx="2" fill="#00dfd8" /></g>
-  <g class="star-glow" style="transform-origin: 820px 45px; animation-delay: 0.8s;"><rect x="817" y="42" width="7" height="7" rx="2" fill="#ff007f" /></g>
-  <g class="star-glow" style="transform-origin: 870px 135px; animation-delay: 1.4s;"><rect x="868" y="133" width="5" height="5" rx="1.5" fill="#7928ca" /></g>
-  <g class="star-glow" style="transform-origin: 75px 125px; animation-delay: 1.1s;"><rect x="73" y="123" width="6" height="6" rx="2" fill="#ffbe0b" /></g>
-
-  <!-- Left Floating Cyber Sprite -->
-  <g class="floating-box-1" transform="translate(50, 48)">
-    <rect x="0" y="0" width="52" height="52" rx="12" fill="#131926" stroke="url(#neonPulse)" stroke-width="2.2" />
-    <circle cx="18" cy="20" r="4" fill="#00dfd8" />
-    <circle cx="34" cy="20" r="4" fill="#00dfd8" />
-    <rect x="16" y="34" width="20" height="4" rx="2" fill="#ff007f" />
-    <polygon points="26,6 30,12 22,12" fill="#ffbe0b" />
-  </g>
-
-  <!-- Right Floating Skill Prism -->
-  <g class="floating-box-2" transform="translate(845, 48)">
-    <rect x="0" y="0" width="52" height="52" rx="12" fill="#131926" stroke="url(#neonPulse)" stroke-width="2.2" />
-    <polygon points="26,10 42,26 26,42 10,26" fill="none" stroke="#00dfd8" stroke-width="2.2">
-      <animateTransform attributeName="transform" type="rotate" from="0 26 26" to="360 26 26" dur="7s" repeatCount="indefinite"/>
-    </polygon>
-    <circle cx="26" cy="26" r="4" fill="#ff007f">
-      <animate attributeName="r" values="3;5.5;3" dur="2.2s" repeatCount="indefinite" />
-    </circle>
-      </g>
 
 <!-- ================================================================= -->
 <!-- 💎 BADGE ROW & TELEMETRY STRIP -->
@@ -87,52 +16,9 @@
 </p>
 
 <!-- ================================================================= -->
-<!-- 📊 ANIMATED TELEMETRY DASHBOARD BAR (SVG) -->
+<!-- 📊 ANIMATED TELEMETRY DASHBOARD BAR -->
 <!-- ================================================================= -->
-<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 950 95" width="100%" height="95" style="background: #0f1422; border-radius: 14px; border: 1px solid rgba(0, 223, 216, 0.25); box-shadow: 0 4px 20px rgba(0,0,0,0.5);">
-  <style>
-    .pod-title { font-family: 'Segoe UI', sans-serif; font-size: 11px; font-weight: 700; fill: #8b949e; letter-spacing: 1.5px; text-transform: uppercase; }
-    .pod-value { font-family: 'Segoe UI', monospace; font-size: 18px; font-weight: 900; fill: #ffffff; letter-spacing: 1px; }
-    .pod-glow-1 { fill: #ff007f; }
-    .pod-glow-2 { fill: #00dfd8; }
-    .pod-glow-3 { fill: #7928ca; }
-    .pod-glow-4 { fill: #ffbe0b; }
-    .pulse-dot { animation: pulseIndicator 1.8s ease-in-out infinite; }
-    @keyframes pulseIndicator { 0%, 100% { opacity: 0.3; } 50% { opacity: 1; } }
-  </style>
 
-  <!-- Telemetry Pod 1: Skills -->
-  <g transform="translate(30, 18)">
-    <rect width="200" height="60" rx="10" fill="#161e31" stroke="rgba(255, 0, 127, 0.35)" stroke-width="1.2"/>
-    <circle cx="22" cy="30" r="4.5" class="pod-glow-1 pulse-dot"/>
-    <text x="36" y="26" class="pod-title">Domain Skills</text>
-    <text x="36" y="48" class="pod-value">19+ Modules</text>
-  </g>
-
-  <!-- Telemetry Pod 2: Preserved ZIPs -->
-  <g transform="translate(260, 18)">
-    <rect width="200" height="60" rx="10" fill="#161e31" stroke="rgba(0, 223, 216, 0.35)" stroke-width="1.2"/>
-    <circle cx="22" cy="30" r="4.5" class="pod-glow-2 pulse-dot" style="animation-delay: 0.4s;"/>
-    <text x="36" y="26" class="pod-title">Drop-in ZIPs</text>
-    <text x="36" y="48" class="pod-value">6 Preserved</text>
-  </g>
-
-  <!-- Telemetry Pod 3: Polyglot SDKs -->
-  <g transform="translate(490, 18)">
-    <rect width="200" height="60" rx="10" fill="#161e31" stroke="rgba(121, 40, 202, 0.35)" stroke-width="1.2"/>
-    <circle cx="22" cy="30" r="4.5" class="pod-glow-3 pulse-dot" style="animation-delay: 0.8s;"/>
-    <text x="36" y="26" class="pod-title">SDK Runtimes</text>
-    <text x="36" y="48" class="pod-value">8 Languages</text>
-  </g>
-
-  <!-- Telemetry Pod 4: Zero Extraction -->
-  <g transform="translate(720, 18)">
-    <rect width="200" height="60" rx="10" fill="#161e31" stroke="rgba(255, 190, 11, 0.35)" stroke-width="1.2"/>
-    <circle cx="22" cy="30" r="4.5" class="pod-glow-4 pulse-dot" style="animation-delay: 1.2s;"/>
-    <text x="36" y="26" class="pod-title">Extraction Needed</text>
-    <text x="36" y="48" class="pod-value">0% (Pure ZIPs)</text>
-  </g>
-</svg>
 
 </div>
 
@@ -425,19 +311,9 @@ Execute the following pipeline:
 
 <div align="center">
 
-<!-- ANIMATED FOOTER BEAM -->
-<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 700 24" width="700" height="24" style="max-width: 100%;">
-  <defs>
-    <linearGradient id="footerBeam" x1="0%" y1="0%" x2="100%" y2="0%">
-      <stop offset="0%" stop-color="#ff007f" stop-opacity="0" />
-      <stop offset="50%" stop-color="#00dfd8" stop-opacity="1" />
-      <stop offset="100%" stop-color="#7928ca" stop-opacity="0" />
-    </linearGradient>
-  </defs>
-  <line x1="0" y1="12" x2="700" y2="12" stroke="url(#footerBeam)" stroke-width="2">
-    <animate attributeName="stroke-dasharray" values="0,700;700,0;0,700" dur="4s" repeatCount="indefinite" />
-  </line>
-</svg>
+<p align="center">
+  <img src="./assets/footer-beam.svg" alt="Animated Footer Divider" width="700" style="max-width: 100%;" />
+</p>
 
 <br/>
 
